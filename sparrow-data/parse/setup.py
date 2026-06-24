@@ -28,7 +28,7 @@ setup(
         extras_require={
             "mlx": [
                 "transformers==5.5.0",
-                "torch==2.12.0",
+                "torch==2.12.1",
                 "torchvision==0.27.0",
                 "numpy==2.4.6",
                 "mistralai==2.4.9",
@@ -37,14 +37,14 @@ setup(
             ],
             "linux": [
                 "transformers==5.9.0",
-                "torch==2.11.0",
+                "torch==2.12.1",
                 "torchvision==0.26.0",
                 "numpy",
                 "vllm==0.23.0; sys_platform == 'linux'",
             ],
             "all": [
                 "transformers==5.5.0",
-                "torch==2.12.0",
+                "torch==2.12.1",
                 "torchvision==0.27.0",
                 "numpy==2.4.6",
                 "mistralai==2.4.9",
